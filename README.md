@@ -43,9 +43,15 @@ _Add info here_
     cd react-native-test-app
     ```
 
-4. Connect your Android smartphone and make sure `USB Debugging` is enabled
+4. Run the setup script, and press `ENTER` to any questions asked in the command-line
 
-5. Install the dependencies then run the project
+    ```
+    npm run setup
+    ```
+
+5. Connect your Android smartphone and make sure `USB Debugging` is enabled
+
+6. Install the dependencies then run the project
 
     ```
     npm install
