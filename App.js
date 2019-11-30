@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -18,7 +18,7 @@ import {
 
 function App() {
   return (
-    <>
+    <Fragment>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
@@ -60,7 +60,7 @@ function App() {
           </View>
         </ScrollView>
       </SafeAreaView>
-    </>
+    </Fragment>
   );
 }
 
