@@ -1,7 +1,13 @@
 {
-  "name": "ReactNativeTestApp",
+  "name": "react-native-test-app",
   "version": "0.1.0",
+  "license": "MIT",
+  "author": "Rin Minase",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RinMinase/react-native-test-app"
+  },
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
