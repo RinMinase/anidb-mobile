@@ -59,6 +59,6 @@ _Add info here_
     ```
 
 ## Built with
-* <img width=20 height=20 src="https://facebook.github.io/react-native/"> [React Native](https://angular.io/) - Web Framework
+* <img width=20 height=20 src="https://facebook.github.io/react-native/img/favicon.ico"> [React Native](https://facebook.github.io/react-native/) - Web Framework
 * <img width=20 height=20 src="https://babeljs.io/img/favicon.png"> [Babel ES9 / ES2018 Preset](https://babeljs.io/) - Syntax and compiler
 * <img width=20 height=20 src="https://yarnpkg.com/favicon.ico"> [Yarn](https://yarnpkg.com/) - Package Manager
