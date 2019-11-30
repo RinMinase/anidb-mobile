@@ -15,7 +15,7 @@ _Add info here_
 2. Add `JAVA_HOME` in your environmental variables with the root folder of your installed JDK.
     - for example: `C:\Program Files\Java\jdk1.8.0_231`
 
-3. [Download and install] Android Studio, and make sure the following are checked:
+3. [Download and install](https://developer.android.com/studio) Android Studio, and make sure the following are checked:
     - Android SDK
     - Android SDK Platform
     - Android Virtual Device
@@ -26,6 +26,7 @@ _Add info here_
 5. Open Android studio, and to the bottom left of the welcome page `Configure` then `SDK Manager`
 
 6. Check `Android 9.0 (Pie)` and clck OK.
+    - This is because React Native requires Android 9.0 (Pie) to be installed instead of the latest
 
 7. Add platform tools to your `PATH`
     - for example: `C:\Users\<user>\AppData\Local\Android\Sdk\platform-tools`
