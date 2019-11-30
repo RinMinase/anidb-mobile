@@ -9,7 +9,8 @@
     "url": "https://github.com/RinMinase/react-native-test-app"
   },
   "scripts": {
-    "setup": "react-native",
+    "setup": "react-native upgrade --legacy true && npm run setup-post",
+    "setup-post": "rm -rf __tests__ && rm .gitattributes .prettierrc.js .watchmanconfig babel.config.js",
     "start": "react-native start",
     "lint": "eslint ."
   },
