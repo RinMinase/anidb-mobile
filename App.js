@@ -62,7 +62,7 @@ function App() {
       </SafeAreaView>
     </>
   );
-};
+}
 
 const styles = StyleSheet.create({
   scrollView: {
