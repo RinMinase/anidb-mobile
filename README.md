@@ -32,6 +32,7 @@ _Add info here_
     - for example: `C:\Users\<user>\AppData\Local\Android\Sdk\platform-tools`
 
 ### Running the project
+
 1. [Download](https://nodejs.org/en/) the latest Node version. This is marked as `<version number> Current`. Install it on your machine.
 
 2. _(Optional)_ [Download](https://yarnpkg.com/latest.msi) Yarn. This is a faster package manager than the default `npm` one.
@@ -46,7 +47,15 @@ _Add info here_
 4. Run the setup script, and press `ENTER` to any questions asked in the command-line
 
     ```
+    npm install
     npm run setup
+    ```
+
+    **Note:** If you have installed Yarn, run these instead:
+
+    ```
+    yarn install
+    yarn setup
     ```
 
 5. Connect your Android smartphone and make sure `USB Debugging` is enabled
@@ -54,14 +63,28 @@ _Add info here_
 6. Install the dependencies then run the project
 
     ```
-    npm install
     npm start
     ```
 
     **Note:** If you have installed Yarn, run these instead:
 
     ```
-    yarn install
+    yarn start
+    ```
+
+### Re-running the project
+
+1. Connect your Android smartphone and make sure `USB Debugging` is enabled
+
+2. Install the dependencies then run the project
+
+    ```
+    npm start
+    ```
+
+    **Note:** If you have installed Yarn, run these instead:
+
+    ```
     yarn start
     ```
 
