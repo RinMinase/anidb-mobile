@@ -1,4 +1,12 @@
 module.exports = {
   root: true,
-  extends: '@react-native-community',
+  plugins: ['react', 'react-native'],
+  ignorePatterns: ['metro.config.js'],
+  parserOptions: {
+    ecmaVersion: 7,
+    sourceType: 'module',
+    ecmaFeatures: {
+        jsx: true,
+    }
+  },
 };
