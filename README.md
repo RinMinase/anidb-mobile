@@ -15,20 +15,23 @@ _Add info here_
 2. Add `JAVA_HOME` in your environmental variables with the root folder of your installed JDK.
     - for example: `C:\Program Files\Java\jdk1.8.0_231`
 
-3. [Download and install](https://developer.android.com/studio) Android Studio, and make sure the following are checked:
+3. Add Java's `/bin` folder to your `PATH` environmental variable.
+    - for example: `C:\Program Files\Java\jdk1.8.0_231\bin`
+
+4. [Download and install](https://developer.android.com/studio) Android Studio, and make sure the following are checked:
     - Android SDK
     - Android SDK Platform
     - Android Virtual Device
-
-4. Add `ANDROID_HOME` in your environmental variables with the `Sdk` folder.
-    - for example: `C:\Users\<user>\AppData\Local\Android\Sdk`
 
 5. Open Android studio, and to the bottom left of the welcome page `Configure` then `SDK Manager`
 
 6. Check `Android 9.0 (Pie)` and clck OK.
     - This is because React Native requires Android 9.0 (Pie) to be installed instead of the latest
 
-7. Add platform tools to your `PATH`
+7. Add `ANDROID_HOME` in your environmental variables with the `Sdk` folder.
+    - for example: `C:\Users\<user>\AppData\Local\Android\Sdk`
+
+8. Add the `Sdk/platform-tools` folder to your `PATH` environmental variable.
     - for example: `C:\Users\<user>\AppData\Local\Android\Sdk\platform-tools`
 
 ### Running the project
@@ -47,29 +50,29 @@ _Add info here_
 4. Run the setup script, and press `ENTER` to any questions asked in the command-line
 
     ```
-    npm install
     npm run setup
     ```
 
     **Note:** If you have installed Yarn, run these instead:
 
     ```
-    yarn install
     yarn setup
     ```
 
-5. Connect your Android smartphone and make sure `USB Debugging` is enabled
+5. Run the `Android Emulator` from `Android Studio`. Otherwise, if you have a device, connect it to your computer and make sure `USB Debugging` is enabled.
 
 6. Install the dependencies then run the project
 
     ```
-    npm start
+    npm android    // For Android
+    npm ios        // For iOS
     ```
 
     **Note:** If you have installed Yarn, run these instead:
 
     ```
-    yarn start
+    yarn android    // For Android
+    yarn ios        // For iOS
     ```
 
 ### Re-running the project
@@ -79,13 +82,15 @@ _Add info here_
 2. Install the dependencies then run the project
 
     ```
-    npm start
+    npm android    // For Android
+    npm ios        // For iOS
     ```
 
     **Note:** If you have installed Yarn, run these instead:
 
     ```
-    yarn start
+    yarn android    // For Android
+    yarn ios        // For iOS
     ```
 
 ## Built with
