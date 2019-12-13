@@ -31,11 +31,5 @@
 		"presets": [
 			"module:metro-react-native-babel-preset"
 		]
-	},
-	"prettier": {
-		"jsxBracketSameLine": true,
-		"printWidth": 100,
-		"trailingComma": "all",
-		"useTabs": true
 	}
 }
