@@ -1,38 +1,40 @@
 {
-  "name": "anidb",
-  "version": "0.1.0",
-  "license": "MIT",
-  "author": "Rin Minase",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/RinMinase/react-native-test-app"
-  },
-  "scripts": {
-    "setup": "bash setup.sh",
-    "start": "react-native start",
-    "lint": "eslint ."
-  },
-  "dependencies": {
-    "react": "16.8.6",
-    "react-native": "0.60.5"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.7.5",
-    "@babel/runtime": "^7.7.6",
-    "eslint": "^6.7.2",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-native": "^3.8.1",
-    "metro-react-native-babel-preset": "0.54.1",
-    "react-test-renderer": "16.8.6"
-  },
-  "babel": {
-    "presets": [
-      "module:metro-react-native-babel-preset"
-    ]
-  },
-  "prettier": {
-    "jsxBracketSameLine": true,
-    "trailingComma": "all"
-  }
+	"name": "anidb",
+	"version": "0.1.0",
+	"license": "MIT",
+	"author": "Rin Minase",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RinMinase/react-native-test-app"
+	},
+	"scripts": {
+		"setup": "bash setup.sh",
+		"start": "react-native start",
+		"lint": "eslint ."
+	},
+	"dependencies": {
+		"react": "16.8.6",
+		"react-native": "0.60.5"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.7.5",
+		"@babel/runtime": "^7.7.6",
+		"eslint": "^6.7.2",
+		"eslint-plugin-react": "^7.17.0",
+		"eslint-plugin-react-native": "^3.8.1",
+		"metro-react-native-babel-preset": "0.54.1",
+		"react-test-renderer": "16.8.6"
+	},
+	"babel": {
+		"presets": [
+			"module:metro-react-native-babel-preset"
+		]
+	},
+	"prettier": {
+		"jsxBracketSameLine": true,
+		"printWidth": 100,
+		"trailingComma": "all",
+		"useTabs": true
+	}
 }
