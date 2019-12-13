@@ -51,3 +51,6 @@ android/
 ios/
 
 .vscode/
+
+/.buckconfig
+/.flowconfig
