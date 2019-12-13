@@ -11,6 +11,7 @@
 	"scripts": {
 		"setup": "bash setup.sh",
 		"start": "react-native start",
+		"android": "react-native run-android",
 		"lint": "eslint ."
 	},
 	"dependencies": {
