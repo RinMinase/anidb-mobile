@@ -6,7 +6,7 @@
   "private": true,
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/RinMinase/react-native-test-app"
+		"url": "https://github.com/RinMinase/anidb-mobile"
 	},
   "scripts": {
     "android": "react-native run-android",
