@@ -1,32 +1,28 @@
 {
-	"name": "anidb",
+  "name": "anidb",
 	"version": "0.1.0",
 	"license": "MIT",
 	"author": "Rin Minase",
-	"private": true,
+  "private": true,
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/RinMinase/react-native-test-app"
 	},
-	"scripts": {
-		"setup": "bash setup.sh",
-		"start": "react-native start",
-		"android": "react-native run-android",
-		"lint": "eslint ."
-	},
-	"dependencies": {
-		"react": "16.8.6",
-		"react-native": "0.60.5"
-	},
-	"devDependencies": {
-		"@babel/core": "^7.7.5",
-		"@babel/runtime": "^7.7.6",
-		"eslint": "^6.7.2",
-		"eslint-plugin-react": "^7.17.0",
-		"eslint-plugin-react-native": "^3.8.1",
-		"metro-react-native-babel-preset": "0.54.1",
-		"react-test-renderer": "16.8.6"
-	},
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "react": "16.9.0",
+    "react-native": "0.61.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.9.0"
+  },
 	"babel": {
 		"presets": [
 			"module:metro-react-native-babel-preset"
