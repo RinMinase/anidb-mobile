@@ -43,23 +43,23 @@ _Add info here_
 3. Clone the project
 
     ```
-    git clone https://github.com/RinMinase/react-native-test-app.git
-    cd react-native-test-app
+    git clone https://github.com/RinMinase/anidb-mobile.git
+    cd anidb-mobile
     ```
 
-4. Run the setup script, and press `ENTER` to any questions asked in the command-line
+4. Install the necessary dependencies
 
     ```
-    npm run setup
+    npm install
     ```
 
     **Note:** If you have installed Yarn, run these instead:
 
     ```
-    yarn setup
+    yarn install
     ```
 
-5. Run the `Android Emulator` from `Android Studio`. Otherwise, if you have a device, connect it to your computer and make sure `USB Debugging` is enabled.
+5. Run the `Android Emulator` from `Android Studio` or `iOS Simulator` from `Xcode`. Otherwise, if you have a device, connect it to your computer and make sure `USB Debugging` is enabled.
 
 6. Install the dependencies then run the project
 
