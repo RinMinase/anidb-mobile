@@ -95,5 +95,8 @@ _Add info here_
 
 ## Built with
 * <img width=20 height=20 src="https://facebook.github.io/react-native/img/favicon.ico"> [React Native](https://facebook.github.io/react-native/) - Web Framework
-* <img width=20 height=20 src="https://babeljs.io/img/favicon.png"> [Babel ES9 / ES2018 Preset](https://babeljs.io/) - Syntax and compiler
+* <img width=20 height=20 src="https://babeljs.io/img/favicon.png"> [Babel ES10 / ES2019 Preset](https://babeljs.io/) - Syntax and compiler
+* <img width=20 height=20 src="https://cssinjs.org/images/favicon.ico"> [JSS (CSS in JS)](https://cssinjs.org/) - CSS pre-processor
+* <img width=20 height=20 src="https://gradle.org/icon/favicon-32x32.png"> [Gradle](https://gradle.org/) - Android bundler
+* <img width=20 height=20 src="https://dmmj3mmt94rvw.cloudfront.net/favicon-undefined.ico"> [Circle CI](https://circleci.com/) - Continuous Integration (CI) service
 * <img width=20 height=20 src="https://yarnpkg.com/favicon.ico"> [Yarn](https://yarnpkg.com/) - Package Manager
