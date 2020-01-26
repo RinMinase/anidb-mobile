@@ -99,4 +99,4 @@ _Add info here_
 * <img width=20 height=20 src="https://cssinjs.org/images/favicon.ico"> [JSS (CSS in JS)](https://cssinjs.org/) - CSS pre-processor
 * <img width=20 height=20 src="https://gradle.org/icon/favicon-32x32.png"> [Gradle](https://gradle.org/) - Android bundler
 * <img width=20 height=20 src="https://dmmj3mmt94rvw.cloudfront.net/favicon-undefined.ico"> [Circle CI](https://circleci.com/) - Continuous Integration (CI) service
-* <img width=20 height=20 src="https://yarnpkg.com/favicon.ico"> [Yarn](https://yarnpkg.com/) - Package Manager
+* <img width=20 height=20 src="https://yarnpkg.com/icons/icon-48x48.png"> [Yarn](https://yarnpkg.com/) - Package Manager
