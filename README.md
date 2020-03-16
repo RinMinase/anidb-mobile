@@ -9,6 +9,7 @@ _Add info here_
 - [Java JDK 8](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
 - [Android Studio](https://developer.android.com/studio)
 - Android Device
+- [Yarn](https://classic.yarnpkg.com/en/docs/install)
 
 1. [Download and install](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) Java JDK 8 on your system.
 
@@ -31,6 +32,8 @@ _Add info here_
 7. Add the `Sdk/platform-tools` folder to your `PATH` environmental variable.
     - for example: `C:\Users\<user>\AppData\Local\Android\Sdk\platform-tools`
 
+8. [Download and install](https://classic.yarnpkg.com/en/docs/install) Yarn.
+
 > For a _Slimmer_ environment setup, please follow the [steps below](#slimmer-environment-setup-without-android-studio) instead. This opts out of using Android Studio if you do not plan on using it as your IDE to reduce the bloat on your project setup, but has more complexity on the setup process.
 
 ### Running the project
@@ -39,35 +42,17 @@ _Add info here_
 
 2. _(Optional)_ [Download](https://yarnpkg.com/latest.msi) Yarn. This is a faster package manager than the default `npm` one.
 
-3. Clone the project
+3. Clone the project and install the necessary dependencies
 
     ```
     git clone https://github.com/RinMinase/anidb-mobile.git
     cd anidb-mobile
-    ```
-
-4. Install the necessary dependencies
-
-    ```
-    npm install
-    ```
-
-    **Note:** If you have installed Yarn, run these instead:
-
-    ```
     yarn install
     ```
 
-5. Run the `Android Emulator` from `Android Studio` or `iOS Simulator` from `Xcode`. Otherwise, if you have a device, connect it to your computer and make sure `USB Debugging` is enabled.
+5. Run the `Android Emulator` from `Android Studio` or `iOS Simulator` from `Xcode`. Otherwise, connect your Android or iOS device and make sure `USB Debugging` is enabled.
 
 6. Install the dependencies then run the project
-
-    ```
-    npm android    // For Android
-    npm ios        // For iOS
-    ```
-
-    **Note:** If you have installed Yarn, run these instead:
 
     ```
     yarn android    // For Android
@@ -76,16 +61,9 @@ _Add info here_
 
 ### Re-running the project
 
-1. Connect your Android smartphone and make sure `USB Debugging` is enabled
+1. Run the `Android Emulator` from `Android Studio` or `iOS Simulator` from `Xcode`. Otherwise, connect your Android or iOS device and make sure `USB Debugging` is enabled.
 
 2. Install the dependencies then run the project
-
-    ```
-    npm android    // For Android
-    npm ios        // For iOS
-    ```
-
-    **Note:** If you have installed Yarn, run these instead:
 
     ```
     yarn android    // For Android
