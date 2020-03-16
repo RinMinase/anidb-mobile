@@ -31,6 +31,8 @@ _Add info here_
 7. Add the `Sdk/platform-tools` folder to your `PATH` environmental variable.
     - for example: `C:\Users\<user>\AppData\Local\Android\Sdk\platform-tools`
 
+> For a _Slimmer_ setup, please follow the steps below instead. This opts out of using Android Studio to reduce storage used, but has more complexity on the setup.
+
 ### Running the project
 
 1. [Download](https://nodejs.org/en/) the latest Node version. This is marked as `<version number> Current`. Install it on your machine.
@@ -89,6 +91,8 @@ _Add info here_
     yarn android    // For Android
     yarn ios        // For iOS
     ```
+
+### Slimmer project setup without Android Studio
 
 ## Built with
 * <img width=20 height=20 src="https://facebook.github.io/react-native/img/favicon.ico"> [React Native](https://facebook.github.io/react-native/) - Web Framework
