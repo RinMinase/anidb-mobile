@@ -6,11 +6,11 @@ _Add info here_
 ## Getting Started
 
 ### Pre-requisites
-- [Java JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [Java JDK 8](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
 - [Android Studio](https://developer.android.com/studio)
 - Android Device
 
-1. [Download and install](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) Java JDK 8 on your system.
+1. [Download and install](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) Java JDK 8 on your system.
 
 2. Add Java's `/bin` folder to your `PATH` environmental variable.
     - for example: `C:\Program Files\Java\jdk1.8.0_231\bin`
