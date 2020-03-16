@@ -12,26 +12,23 @@ _Add info here_
 
 1. [Download and install](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) Java JDK 8 on your system.
 
-2. Add `JAVA_HOME` in your environmental variables with the root folder of your installed JDK.
-    - for example: `C:\Program Files\Java\jdk1.8.0_231`
-
-3. Add Java's `/bin` folder to your `PATH` environmental variable.
+2. Add Java's `/bin` folder to your `PATH` environmental variable.
     - for example: `C:\Program Files\Java\jdk1.8.0_231\bin`
 
-4. [Download and install](https://developer.android.com/studio) Android Studio, and make sure the following are checked:
+3. [Download and install](https://developer.android.com/studio) Android Studio, and make sure the following are checked:
     - Android SDK
     - Android SDK Platform
     - Android Virtual Device
 
-5. Open Android studio, and to the bottom left of the welcome page `Configure` then `SDK Manager`
+4. Open Android studio, and to the bottom left of the welcome page `Configure` then `SDK Manager`
 
-6. Check `Android 9.0 (Pie)` and clck OK.
+5. Check `Android 9.0 (Pie)` and clck OK.
     - This is because React Native requires Android 9.0 (Pie) to be installed instead of the latest
 
-7. Add `ANDROID_HOME` in your environmental variables with the `Sdk` folder.
+6. Add `ANDROID_HOME` in your environmental variables with the `Sdk` folder.
     - for example: `C:\Users\<user>\AppData\Local\Android\Sdk`
 
-8. Add the `Sdk/platform-tools` folder to your `PATH` environmental variable.
+7. Add the `Sdk/platform-tools` folder to your `PATH` environmental variable.
     - for example: `C:\Users\<user>\AppData\Local\Android\Sdk\platform-tools`
 
 ### Running the project
