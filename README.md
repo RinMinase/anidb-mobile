@@ -140,7 +140,8 @@ This setup opts out of using Android Studio if you do not plan on using it as yo
     > The emulator may take some time to initialize for the first time. But if you have done correctly, the Android Emulator window should show.
 
 ## Built with
-* <img width=20 height=20 src="https://facebook.github.io/react-native/img/favicon.ico"> [React Native](https://facebook.github.io/react-native/) - Web Framework
+* <img width=20 height=20 src="https://facebook.github.io/react-native/img/favicon.ico"> [React Native](https://facebook.github.io/react-native/) - Mobile Framework
+* <img width=20 height=20 src="https://www.android.com/static/images/fav/favicon.ico"> [Android](https://www.android.com/) - Platform
 * <img width=20 height=20 src="https://babeljs.io/img/favicon.png"> [Babel ES10 / ES2019 Preset](https://babeljs.io/) - Syntax and compiler
 * <img width=20 height=20 src="https://cssinjs.org/images/favicon.ico"> [JSS (CSS in JS)](https://cssinjs.org/) - CSS pre-processor
 * <img width=20 height=20 src="https://gradle.org/icon/favicon-32x32.png"> [Gradle](https://gradle.org/) - Android bundler
