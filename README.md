@@ -1,4 +1,4 @@
-<h1 align="center"> React Native Test App </h1>
+<h1 align="center"> Rin's AniDB Mobile (React Native) </h1>
 
 ## Introduction
 _Add info here_
@@ -40,9 +40,7 @@ _Add info here_
 
 1. [Download](https://nodejs.org/en/) the latest Node version. This is marked as `<version number> Current`. Install it on your machine.
 
-2. _(Optional)_ [Download](https://yarnpkg.com/latest.msi) Yarn. This is a faster package manager than the default `npm` one.
-
-3. Clone the project and install the necessary dependencies
+2. Clone the project and install the necessary dependencies
 
     ```
     git clone https://github.com/RinMinase/anidb-mobile.git
@@ -50,9 +48,9 @@ _Add info here_
     yarn install
     ```
 
-5. Run the `Android Emulator` from `Android Studio` or `iOS Simulator` from `Xcode`. Otherwise, connect your Android or iOS device and make sure `USB Debugging` is enabled.
+3. Run the `Android Emulator` from `Android Studio` or `iOS Simulator` from `Xcode`. Otherwise, connect your Android or iOS device and make sure `USB Debugging` is enabled.
 
-6. Install the dependencies then run the project
+4. Install the dependencies then run the project
 
     ```
     yarn android    // For Android
