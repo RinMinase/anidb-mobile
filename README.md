@@ -3,7 +3,7 @@
 ## Introduction
 _Add info here_
 
-> Sadly, due to how the React Native CLI works, I was able to exclude `android` and `ios` folders from the repository, but regenerating these folders using the setup script would generate a new project, then copy those folders to the main repository. This seems to be an issue for now, and there seems to be no _proper_ and _clean_ solution for it. [[Source 1]](https://github.com/facebook/react-native/issues/27301), [[Source 2]](https://github.com/react-native-community/cli/issues/808).
+> Sadly, due to how the React Native CLI works, I was able to exclude `android` and `ios` folders from the repository, but regenerating these folders using the setup script would generate a new temporary project, then copy their respective `android` and `ios` folders to the main project. This seems to be an issue for now, and there seems to be no _proper_ and _clean_ solution for it for this version of the React Native. [[Source 1]](https://github.com/facebook/react-native/issues/27301), [[Source 2]](https://github.com/react-native-community/cli/issues/808).
 
 ## Getting Started
 
