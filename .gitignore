@@ -44,3 +44,7 @@ buck-out/
 /ios/Pods/
 
 .vscode/
+
+# React Native Platforms
+android/
+ios/
