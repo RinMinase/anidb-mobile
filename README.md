@@ -42,17 +42,23 @@ _Add info here_
 
 1. [Download](https://nodejs.org/en/) the latest Node version. This is marked as `<version number> Current`. Install it on your machine.
 
-2. Clone the project and install the necessary dependencies
+2. Clone the project.
 
     ```
     git clone https://github.com/RinMinase/anidb-mobile.git
     cd anidb-mobile
+    ```
+
+3. Run the setup script and install the necessary dependencies.
+
+    ```
+    yarn setup
     yarn install
     ```
 
-3. Run the `Android Emulator` from `Android Studio` or `iOS Simulator` from `Xcode`. Otherwise, connect your Android or iOS device and make sure `USB Debugging` is enabled.
+4. Run the `Android Emulator` from `Android Studio` or `iOS Simulator` from `Xcode`. Otherwise, connect your Android or iOS device and make sure `USB Debugging` is enabled.
 
-4. Install the dependencies then run the project
+5. Install the dependencies then run the project
 
     ```
     yarn android    // For Android
