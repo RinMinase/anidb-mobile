@@ -14,7 +14,7 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "setup": "npm run setup:create && npm run setup:update",
-    "setup:create": "react-native init anidb --version 0.62.1 && rm -rf ios/ android/",
+    "setup:create": "react-native init anidb --version 0.62.2 && rm -rf ios/ android/",
     "setup:update": "mv anidb/ios ios && mv anidb/android android && rm -rf anidb"
   },
   "dependencies": {
