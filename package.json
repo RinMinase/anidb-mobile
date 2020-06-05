@@ -9,10 +9,14 @@
     "url": "https://github.com/RinMinase/anidb-mobile"
   },
   "scripts": {
-    "clean": "cd android && ./gradlew clean && cd ..",
+    "clean": "cd android && ./gradlew clean & cd ..",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "build:apk": "npm run build:apk:clean && npm run build:apk:pre && npm run build:apk:post",
+    "build:apk:clean": "mkdir dist & rm -f dist/app-release.apk",
+    "build:apk:pre": "cd android && bash ./gradlew assembleRelease && cd ..",
+    "build:apk:post": "mv android/app/build/outputs/apk/release/app-release.apk dist/",
     "setup": "npm run setup:create && npm run setup:update",
     "setup:create": "rm -rf anidb/ && react-native init anidb --version 0.62.2 && rm -rf ios/ android/",
     "setup:update": "mv anidb/ios ios && mv anidb/android android && rm -rf anidb"
