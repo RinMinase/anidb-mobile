@@ -49,5 +49,8 @@ buck-out/
 android/
 ios/
 
+# Build folder
+dist/
+
 # Temporary Generated folder from setup
 anidb/
