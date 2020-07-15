@@ -18,7 +18,7 @@
     "build:apk:pre": "cd android && bash ./gradlew assembleRelease & cd ..",
     "build:apk:post": "mv android/app/build/outputs/apk/release/app-release.apk dist/",
     "setup": "run-s setup:*",
-    "setup:create": "rm -rf anidb/ && react-native init anidb --version 0.62.2 && rm -rf ios/ android/",
+    "setup:create": "rm -rf anidb/ && react-native init anidb --version 0.63.1 && rm -rf ios/ android/",
     "setup:update": "mv anidb/ios ios && mv anidb/android android && rm -rf anidb"
   },
   "dependencies": {
