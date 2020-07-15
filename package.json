@@ -22,7 +22,7 @@
     "setup:update": "mv anidb/ios ios && mv anidb/android android && rm -rf anidb"
   },
   "dependencies": {
-    "react": "16.11.0",
+    "react": "16.13.1",
     "react-native": "0.63.1"
   },
   "devDependencies": {
