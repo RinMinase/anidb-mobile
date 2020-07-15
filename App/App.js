@@ -19,7 +19,7 @@ import {
 	ReloadInstructions,
 } from "react-native/Libraries/NewAppScreen";
 
-import styles from "./AppStyles"
+import styles from "./AppStyles";
 
 function App() {
 	return (
@@ -67,6 +67,6 @@ function App() {
 			</SafeAreaView>
 		</>
 	);
-};
+}
 
 export default App;
